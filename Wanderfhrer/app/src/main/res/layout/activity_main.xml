@@ -1,0 +1,20 @@
+<Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:onClick="neueRoute"
+    android:text="neue Route"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/tvDuration" />
+<Button
+android:id="@+id/button2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginTop="30dp"
+android:onClick="routeAnzeigen"
+android:text="route Anzeigen"
+app:layout_constraintStart_toEndOf="@+id/button"
+app:layout_constraintTop_toBottomOf="@+id/textView8" />
